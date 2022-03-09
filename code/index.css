@@ -48,14 +48,16 @@ h5 {
 }
 
 .hero .container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   max-width: 1127px;
   padding-top: 124px;
 }
 
-.hero-content {
-  
+.hero .container .header-logo {
+  position: absolute;
+  top: 47px;
 }
 
 .hero-content .hero-title {
@@ -259,6 +261,10 @@ h5 {
   .main.container .card:hover {
     transform: scale(1);
   }
+
+  .bottom-cta img {
+    height: auto;
+  }
 }
 
 /* Mobile */
@@ -274,6 +280,5 @@ h5 {
 
   .bottom-cta img {
     margin-top: -12px;
-    height: auto;
   }
 }
