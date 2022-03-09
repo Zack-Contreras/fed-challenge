@@ -28,10 +28,6 @@ h5 {
 }
 
 
-.button {
-
-}
-
 .container {
   max-width: 1127px;
 }
@@ -100,8 +96,6 @@ h5 {
 }
 
 /* Page | Main Content */
-.page {
-}
 
 .page .main.container {
   max-width: 1128px;
@@ -146,6 +140,7 @@ h5 {
 
 .page .card .card-content h2 {
   margin-top: 0;
+  font-family: "Lato", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
